@@ -1,0 +1,64 @@
+.input
+  border 1px solid #ae7000
+/**
+  react动画库 react-transition-group
+  xxx-enter：(入场)前的CSS样式;
+  xxx-enter-active：进入动画直到完成时之前的CSS样式;
+  xxx-enter-done：进入完成时的CSS样式;
+  xxx-exit：(出场)前的CSS样式
+  xxx-exit-active：退出动画直到完成时之前的CSS样式;
+  xxx-exit-done：退出完成时的CSS样式;
+*/
+.boss-text-enter
+  opacity 0
+.boss-text-enter-active
+  opacity 1
+  transition opacity 2000ms
+.boss-text-enter-done 
+  opacity 1
+
+.boss-text-exit 
+  opacity 1
+
+.boss-text-exit-active 
+  opacity 0
+  transition opacity 2000ms
+
+.boss-text-exit-done 
+  opacity 0
+/* .show {
+  animation: show-item 2s ease-in forwards;
+}
+.hide {
+  animation: hide-item 2s ease-in forwards;
+}
+@keyframes hide-item{
+  0% {
+    opacity: 1;
+    color: yellow;
+  }
+  50% {
+    opacity: 0.5;
+    color: red;
+  }
+  100% {
+    opacity: 0;
+    color: green;
+  }
+}
+@keyframes show-item {
+  0% {
+    opacity: 0;
+    color: yellow;
+  }
+
+  50% {
+    opacity: 0.5;
+    color: red;
+  }
+
+  100% {
+    opacity: 1;
+    color: green;
+  }
+} */

@@ -1,0 +1,12 @@
+/* 配置UI库按需引入，提升性能 */
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd"
+      }
+    ]
+  ]
+}
